@@ -1,0 +1,7 @@
+{
+  "name": "aneta-smith-goldschmiedin",
+  "version": "1.0.0",
+  "dependencies": {
+    "netlify-cms-app": "^2.15.20"
+  }
+}
