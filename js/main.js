@@ -1,6 +1,11 @@
+import CMS from 'netlify-cms-app';
+import { de } from 'netlify-cms-locales';
+
 const templateParams = document.getElementById('template-params').dataset;
 const apiKey = templateParams.apiKey;
 const templatesUrl = templateParams.templatesUrl
+
+CMS.registerLocale('de', de);
 
 fetch(templatesUrl)
     .then(response => response.text())
